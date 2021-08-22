@@ -10,7 +10,7 @@ public class AzureDemoController {
 public String hello(){
 	
 		
-		return "Azure Pipeline";
+		return "Azure Pipeline in git";
 		
 		
 	}
