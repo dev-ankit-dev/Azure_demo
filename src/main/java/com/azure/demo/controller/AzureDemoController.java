@@ -6,8 +6,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class AzureDemoController {
 	
-	@GetMapping
-	public String hello() {
+@GetMapping(value="/hello") 
+public String hello(){
 	
 		
 		return "Azure Pipeline";
